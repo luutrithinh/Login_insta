@@ -3,8 +3,8 @@ import './footer.css'
 
 export default function Footer() {
   return (
-    <div class="footer">
-    <div class="footer-links">
+    <div className="footer">
+      <div className="footer-links">
         <a href="#">Meta</a>
         <a href="#">About</a>
         <a href="#">Blog</a>
@@ -19,12 +19,29 @@ export default function Footer() {
         <a href="#">Threads</a>
         <a href="#">Contact Uploading & Non-Users</a>
         <a href="#">Meta Verified</a>
-    </div>
-    <div class="footer-info">
-        <span>English</span>
-        <span>▼</span>
+      </div>
+      <div className="language">
+        <div>
+          <ul>
+            <li>
+              <a className='color' href="#">English ▼</a>
+              <ul>
+                <li>
+                  <a href="#">France</a>
+                </li>
+                <li>
+                  <a href="#">Portuguese</a>
+                </li>
+                <li>
+                  <a href="#">chingchong</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
         <span>© 2024 Instagram from Meta</span>
+      </div>
     </div>
-</div>
   )
 }

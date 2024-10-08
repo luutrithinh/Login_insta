@@ -1,3 +1,6 @@
+a{
+    color:#8e8e8e;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -21,8 +24,58 @@
     color: inherit;
 }
 
-.footer-info {
+.language {
     display: flex;
     align-items: center;
     gap: 5px;
+    color: #8e8e8e;
+}
+
+ul li {
+    display: inline-block;
+    color:#8e8e8e;
+
+}
+
+ul li:hover {
+    background: white;
+    color:#8e8e8e;
+
+}
+
+ul li:hover ul {
+    display: block;
+    color:#8e8e8e;
+
+}
+
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    color:#8e8e8e;
+
+}
+
+ul li ul li {
+    background: #ffffff;
+    display: flex;
+    color:#8e8e8e;
+
+}
+
+ul li ul li a {
+    display: block;
+    color:#8e8e8e;
+
+}
+
+ul li ul li:hover {
+    background: #ffffff;
+}
+.language :hover{
+    color:#8e8e8e;
+}
+.color{
+    color:#8e8e8e;
 }

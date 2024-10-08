@@ -1,3 +1,4 @@
+
 h1{
     color:black;
     font-style:italic ;
@@ -7,7 +8,7 @@ body{
 }
 form{
     padding:10;
-    margin-left: 340px;
+    margin-left: 30px;
 }
 .header{
     background-color: #fff;
@@ -52,14 +53,15 @@ form{
     color: #666;
 }
 .forgot{
-    color: rgb(255, 0, 0);
+    color: 0, 55, 107;
+    font-size: 12px;
 }
 .signup {
     margin-top: 20px;
     font-size: 14px;
     border: 1px solid #dbdbdb;
     color: black;
-    padding: 10px;
+    padding: 10px ;
     width: 410px;
 
 }
@@ -74,20 +76,30 @@ footer{
     margin-right: 800px;
 
 }
-.facebook{
-    flex-direction: column;
-    margin-bottom: 100px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    margin
+.facebook-login {
+    display: flex;
+    align-items: center;
+    margin-left: 97px;
 }
-.anotherapp{
-    padding-left: 65px;
+
+.facebook-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; 
 }
-.phone{
-    padding-left: 40;
+
+.login-text {
+    font-size: 14px;
+    color: #385185;
 }
-.Loo{
-    text-align: center;
-    padding-left: 80px;
+.anotherapp {
+    display: flex;
+    align-items: center; 
+    margin: 10px;
+    margin-left: 70px;
+  }
+  
+.Micro{
+    margin-right: 10px; 
 }
+
